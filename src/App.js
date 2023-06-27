@@ -1,19 +1,23 @@
-import logo from "./logo.svg";
+import logo from "./Resources/acp_logo.png";
 import "./App.css";
+// import NavScrollExample from "./Navbar.js";
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="bg-red-700">Welcome to new acplay</p>
+      <div className="logo">
+        <img src= {logo} className="App-logo" alt="ACP" />
+      </div>
+        <p className="app_title"> <b>Welcome to ACPlay </b></p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="http://localhost:3000/"
+          // target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Click here to Refresh the Page
         </a>
       </header>
     </div>

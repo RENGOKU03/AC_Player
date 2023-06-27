@@ -1,15 +1,18 @@
 import logo from "./Resources/acp_logo.png";
 import "./App.css";
+import { Navbar } from "react-bootstrap";
+import HomeNavbar from './Components/HomeNavbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import NavScrollExample from "./Navbar.js";
 
 function App() {
   return (
     
     <div className="App">
+      <HomeNavbar/> 
       <header className="App-header">
-      <div className="logo">
-        <img src= {logo} className="App-logo" alt="ACP" />
-      </div>
+      
         <p className="app_title"> <b>Welcome to ACPlay </b></p>
         <a
           className="App-link"
